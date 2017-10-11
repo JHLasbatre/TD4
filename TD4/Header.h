@@ -1,13 +1,15 @@
 #include <iostream>
-#include <string>
 
 using namespace std;
 
 
-enum Distribution 
+enum Distribution { NORMAL, EXPONNENTIAL, UNIFORM };
+
 class RandomWalk
 {
-pricate:
-	int *tab;
+private:
+	int size;
+	double *tab;
+
 
 };
